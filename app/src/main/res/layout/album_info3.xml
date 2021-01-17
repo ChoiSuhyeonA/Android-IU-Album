@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="0"
+        android:padding="10dp">
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="300dp"
+            android:background="@drawable/iualbum3" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="8dp"
+                android:text="1. 먼저 리스트에서 들을 음악을 선택하세요."/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="8dp"
+                android:text="2. 음악듣기를 ON시켜주세요 "/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="8dp"
+                android:text="3. 다른 음악을 선택하고 싶을 경우에는 음악듣기를 OFF하고, 리스트에서 음악을 다시 재선택하시면 됩니다.  "/>
+
+            <ListView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/listView3"/>
+            <Switch
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:id="@+id/switch3"
+                android:text="음악듣기"/>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:padding="20dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="팔레트 - 작사: 아이유 / 작곡: 아이유"
+            android:textColor="#C17008"
+            android:textSize="20dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="아이유가 기존에 시도해보지 않은 장르의 감각적이면서도 포근한 신스팝 RB 트랙이다. 2년 전에 발매했던 '스물셋'과는 다른 듯, 또 이어지는 아이유 본인에 대한 이야기를 차분히 담아내고 있다. ‘스물셋'에서는 동시에 함께 존재하는 전혀 다른 이면과 그 혼란스러움을 솔직하고 대담하게 풀어놨다면 이번에는 헷갈리지 않고 본인이 좋아하는 것을 또박또박 짚어내며 ”이제 날 조금 알 것 같다”고 이야기하는 아이유의 여유가 돋보인다. 더욱이 G-DRAGON의 피쳐링으로 이 이야기는 단순히 아이유 개인만의 것이 아닌 스물다섯이라는 나이, 또는 청춘이 가지는 그 아름다움과 찬란함으로 주제가 확장된다. 진솔하면서도 날이 서지 않은 다정한 메시지가 부드러운 신스소리와 어우러져 살랑거린다."
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/button3"
+            android:text="메인페이지로 돌아가기" />
+    </LinearLayout>
+</LinearLayout>

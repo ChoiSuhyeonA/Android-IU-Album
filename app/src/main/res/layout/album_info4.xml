@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="0"
+        android:padding="10dp">
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="300dp"
+            android:background="@drawable/iualbum4" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="8dp"
+                android:text="1. 먼저 리스트에서 들을 음악을 선택하세요."/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="8dp"
+                android:text="2. 음악듣기를 ON시켜주세요 "/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="8dp"
+                android:text="3. 다른 음악을 선택하고 싶을 경우에는 음악듣기를 OFF하고, 리스트에서 음악을 다시 재선택하시면 됩니다.  "/>
+
+            <ListView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/listView4"/>
+
+            <Switch
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:id="@+id/switch4"
+                android:text="음악듣기"/>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:padding="20dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="LOVE-POEM - 작사: 이종훈 / 작곡: 아이유"
+            android:textColor="#C17008"
+            android:textSize="20dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="아이유와는 뗄 수 없는 음악 파트너 이종훈 작곡가 특유의 팝스러운 멜로디와 생동감 있는 밴드 사운드가 어우러진 rock 음악이다.
+편곡엔 홍소진, 적재 연주엔 아이유 밴드 (홍소진, 적재, 최인성, 김승호) 가 참여해 완성도를 높였다.
+또한 아이유의 연습생 시절부터 각별한 동료애가 있는 것으로 알려진 실력파 선배 가수 하동균의 목소리가 메시지에 무게감을 더해준다.
+"
+
+
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/button4"
+            android:text="메인페이지로 돌아가기" />
+    </LinearLayout>
+</LinearLayout>

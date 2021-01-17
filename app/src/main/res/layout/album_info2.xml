@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="0"
+        android:padding="10dp">
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="300dp"
+            android:background="@drawable/iualbum2" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="8dp"
+                android:text="1. 먼저 리스트에서 들을 음악을 선택하세요."/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="8dp"
+                android:text="2. 음악듣기를 ON시켜주세요 "/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="8dp"
+                android:text="3. 다른 음악을 선택하고 싶을 경우에는 음악듣기를 OFF하고, 리스트에서 음악을 다시 재선택하시면 됩니다.  "/>
+
+            <ListView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/listView2"/>
+            <Switch
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:id="@+id/switch2"
+                android:text="음악듣기"/>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:padding="20dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="스물셋 - 작사: 아이유 / 작곡: 이종훈"
+            android:textColor="#C17008"
+            android:textSize="20dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="이번 앨범 [CHAT-SHIRE]는 23살의 아이유에게 일어나고 보이는 일들과 사람들에게서 느낀 생각들을 소설 속 캐릭터에 대입해 표현한 총 7곡이 수록되어 있으며, 앨범명 ‘CHAT-SHIRE’는 각 곡의 캐릭터들이 살고 있는 주(州), 스물 세 걸음이면 모두 돌아볼 수 있는 작은 사회를 의미한다.
+아이유의 현재를 담은 ‘CHAT-SHIRE’를 통해 당신은 당신의 미래-현재-과거의 모습을 떠올리게 될 것이다. 아이유 자신의 경험과 생각들이 바탕이 된 이야기들이지만 우리 모두에게 일어날 수 있고 생각할 수 있는 일들. 그 모습을 ‘CHAT-SHIRE’안에서 함께 이야기하고 소통하길 원한다."
+
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/button2"
+            android:text="메인페이지로 돌아가기" />
+    </LinearLayout>
+</LinearLayout>

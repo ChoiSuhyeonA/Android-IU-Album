@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="0"
+        android:padding="10dp">
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="300dp"
+            android:background="@drawable/iualbum1" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="8dp"
+                    android:text="1. 먼저 리스트에서 들을 음악을 선택하세요."/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="8dp"
+                    android:text="2. 음악듣기를 ON시켜주세요 "/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="8dp"
+                    android:text="3. 다른 음악을 선택하고 싶을 경우에는 음악듣기를 OFF하고, 리스트에서 음악을 다시 재선택하시면 됩니다.  "/>
+
+                <ListView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/listView1"/>
+                <Switch
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="15dp"
+                    android:id="@+id/switch1"
+                    android:text="음악듣기"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:padding="20dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="분홍신 - 작사: 김이나 / 작곡: 이민수"
+            android:textColor="#C17008"
+            android:textSize="20dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="타이틀곡 분홍신은 이민수-김이나 콤비의 새로운 작품으로, 빨간구두를 신으면 자신의 의지와 상관없이 계속해서 춤을 추게 된다는 내용의 안데르센 동화 '빨간구두(The Red Shoes)'에서 영감을 받아 완성된 곡이다. 1930년대 빅밴드 스윙 사운드를 기반으로 클래시컬하고 빈티지한 요소를 한 데 녹여 기대를 더한다. 세션 작업 역시 1930년대 고전 스윙의 느낌을 최대한 살리기 위해 드라마∙애니메이션∙뮤지컬 음악계의 거장 Toyama Kazuhiko의 지휘 아래 일본 현지에서 최고의 빅밴드 멤버들과 함께 즉흥 연주(Improvisation) 기법으로 녹음이 진행되었으며, 여기에 이민수 작곡가 특유의 드라마틱한 전개와 정교한 코러스가 더해져 스케일 감 있는 곡으로 마무리되었다."
+
+         />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/button1"
+            android:text="메인페이지로 돌아가기" />
+    </LinearLayout>
+</LinearLayout>
